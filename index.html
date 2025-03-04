@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>create-account</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<div>
+    <div class="wholecontainer">
+        <Form>
+            <div class="space">
+                <div class="welcome-pic">
+                    <h1 id="heading">Welcome to our Community !</h1>
+                    <img src="https://docs.simplecheckoutbuilder.com/wp-content/uploads/2024/04/pana.svg"
+                        alt="fit-picture">
+                </div>
+                <div class="container">
+                    <h1>Create Account</h1>
+                    <h3>sign up to your account below.</h3>
+                    <div class="name">
+                        <div>
+                            <label for="first name">First Name</label>
+                            <br>
+                            <input type="text" placeholder="|" />
+                        </div>
+                        <div>
+                            <label for="last name">Last Name</label>
+                            <br>
+
+                            <input type="text" placeholder="|">
+                        </div>
+                    </div>
+                    <br><br>
+                    <label for="email">Email Address</label>
+                    <br>
+                    <input type="email" placeholder="|" id="inputs">
+                    <br><br>
+                    <label for="password">Password</label>
+                    <br>
+                    <div class="input-wrapper">
+                        <input type="password" placeholder="|" id="inputs">
+                        <br><br>
+                        <button class="toggle-password" onclick="togglePasswordVisibility()">
+                            <i id="toggleIcon" class="fas fa-eye"></i>
+                        </button>
+                    </div>
+                    <br>
+                    <label for="confirm password">Confirm Password</label>
+                    <br>
+                    <div class="input-wrapper">
+                        <input type="password" placeholder="|" id="inputs">
+                        <br><br>
+                        <button class="toggle-password" onclick="togglePasswordVisibility()">
+                            <i id="toggleIcon" class="fas fa-eye"></i>
+                        </button>
+                    </div>
+                    <button type="submit" id="submit-button">Create Account</button>
+                    <br>
+                    <p style="margin-left: 60px;">Already have an account ? <b id="sign-in">sign in</b></p>
+
+                    <h4 id="or">or</h4>
+                    <div class="icons">
+                        <a href="https://accounts.google.com/InteractiveLogin/signinchooser?
+            hl=en-gb&ifkv=ASSHykoye0V4UFfWniq9EmPIQe34Q3P3Fgswtd0c5ziJ
+            f_A7Hcwl6TUzoyMsQAAw3fKHxh5hNVmAzQ&ddm=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin"
+                            class="fab fa-google fa-3x" type="text" id="google"></a>
+                        <a href="https://www.facebook.com/login.php/" class="fa-brands fa-facebook" id="facebook"></a>
+                        <a href="https://account.apple.com/" class="fa-brands fa-apple" id="apple"></a>
+
+                    </div>
+                </div>
+            </div>
+    </div>
+</div>
+
+
+
+</Form>
+</body>
+
+</html>
